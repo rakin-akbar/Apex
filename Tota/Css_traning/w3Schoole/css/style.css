@@ -1,0 +1,37 @@
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.tota_Nav .topNavbar {
+    background: white;
+    position: absolute;
+    padding: 0;
+    height: 56px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.tota_Nav .topNavbar .logo {
+    width: 75px;
+    float: left;
+    border: none;
+    display: block;
+    outline: 0;
+}
+.tota_Nav .topNavbar .logo a {
+}
+.fa-logo:before {
+    content: '\e822';
+}
+.tota_Nav .topNavbar .logo img {
+    padding: 8px 16px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 fontawesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}

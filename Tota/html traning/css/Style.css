@@ -1,0 +1,27 @@
+.From_bg {
+    background-image: url(../images/img.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+table {
+    width: 100%;
+}
+
+.Form-heading {
+    text-align: center;
+}
+.Form-heading h1 {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+label.label_name {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+table, td input {
+    width: 90%;
+    font-size: 20px;
+    border-radius: 10px;
+}

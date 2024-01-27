@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Style.css">
+
+
+
+</head>
+<body>
+    
+    <table class="From_bg">
+        <form>
+            <tr>
+                <td class="Form-heading" colspan="2">
+                    <h1>student from</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label_name"> Name </label><br>
+                    <input type="text" placeholder="Fast Name" name="firstname" required />
+                </td>
+                <td>
+                    <br>
+                    <input type="text" placeholder="Last name" name="lastname" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label_name"> Phone Number:</label><br>
+                    <input type="text" placeholder="Your Number" name="phone" maxlength="11"/>
+                </td>
+                <td>
+                    <br>
+                    <label class="label_name"> Course :</label> 
+                    <select>
+                        <option value="Course">Course</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BBA">BBA</option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="MBA">MBA</option>
+                        <option value="MCA">MCA</option>
+                        <option value="M.Tech">M.Tech</option>
+                    </select>
+                </tr>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label_name">Roll Number</label><br>
+                    <input type="text" placeholder="Roll Number" name="roll">
+                </td>
+                <td>
+                    <label class="label_name"> Gender :</label><br>
+                    <input type="radio" id="male" name="fav_language"/>
+                    <label> male :</label><br>
+                    <input type="radio" id="Female" name="fav_language">
+                    <label for="Female">Female</label><br>
+                    <input type="radio" id="Other" name="fav_language">
+                    <label for="Other">Other</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" colspan="2">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+            
+        </form>
+    </table>
+</body>
+</html>

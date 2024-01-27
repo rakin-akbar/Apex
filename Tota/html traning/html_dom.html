@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_dom</title>
+</head>
+<body>
+    <h1>My first work</h1>
+    <div id="intro">
+        <p>Finding HTML Elements by Id</p>
+        <p>This example demonstrates the <b>getElementsById</b> method.</p>
+    </div>
+    <button onclick="removeHandler()">Remove</button>
+    
+    <p id="demo"></p>
+
+    <p id="date"></p>
+
+
+    <script>
+        const itex = document.getElementById("intro");
+        document.addEventListener("mousemove", MyFuntion);
+        function MyFuntion() {
+            document.getElementById("demo").innerHTML = Math.random();
+        };
+        function removeHandler(){
+            
+            document.removeEventListener("mousemove", MyFuntion);
+        };
+        
+        document.getElementById("date").innerHTML = "Date: " + Date();
+
+    </script>
+
+</body>
+</html>
